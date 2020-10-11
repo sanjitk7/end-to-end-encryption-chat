@@ -20,8 +20,8 @@ input, textarea, select { font-family: inherit; font-size: small; }
 textarea:focus, input:focus { outline: none; }
 
 .full-width { width: 100%; }
-.green { color: green; }
-.red { color: red; }
+.green { color: green; overflow: hidden;}
+.red { color: red; overflow: hidden; }
 .yellow { color: yellow; }
 .center-x { margin: 0 auto; }
 .center-text { width: 100%; text-align: center; }
@@ -51,7 +51,7 @@ p { font-size: x-small; }
   flex: 0 0 60%;
   word-wrap: break-word;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: hidden;
   padding: 6px;
   margin-bottom: 50px;
 }
