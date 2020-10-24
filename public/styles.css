@@ -32,17 +32,12 @@ input:focus {
   outline: none;
 }
 
-.full-width {
-  width: 1000%;
-}
-
-.half-width {
-  width: 60%;
-}
-
-.less-width {
-  width: 20%;
-}
+.full-width { width: 100%; }
+.green { color: green; overflow: hidden;}
+.red { color: red; overflow: hidden; }
+.yellow { color: yellow; }
+.center-x { margin: 0 auto; }
+.center-text { width: 100%; text-align: center; }
 
 .green {
   color: green;
@@ -132,15 +127,9 @@ p {
   flex: 0 0 60%;
   word-wrap: break-word;
   overflow-x: hidden;
-  overflow-y: scroll;
-  padding: 12px;
-  margin-bottom: 100px;
-  margin-left: 12px;
-  margin-top: 30px;
-  margin-right: 12px;
-  background: #131419;
-  border-radius: 10px;
-  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05), 5px 5px 15px rgba(0, 0, 0, 0.8);
+  overflow-y: hidden;
+  padding: 6px;
+  margin-bottom: 50px;
 }
 
 .message>p {
